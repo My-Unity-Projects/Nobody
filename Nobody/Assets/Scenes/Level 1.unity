@@ -685,7 +685,8 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 8977861131013362028, guid: eeba1550d0631d84b8669278fb245221, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: eeba1550d0631d84b8669278fb245221, type: 3}
 --- !u!1 &225263021
 GameObject:
@@ -1114,6 +1115,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6816989036246628131, guid: bc36bf85af1620c43aa88d596770e2e1,
+        type: 3}
+      propertyPath: checkRadius2
+      value: 0.35
+      objectReference: {fileID: 0}
+    - target: {fileID: 6816989036246628131, guid: bc36bf85af1620c43aa88d596770e2e1,
+        type: 3}
+      propertyPath: jumpForce
+      value: 24
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bc36bf85af1620c43aa88d596770e2e1, type: 3}
@@ -2612,11 +2623,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Camera Parent
       objectReference: {fileID: 0}
-    - target: {fileID: 8888436763888838952, guid: 9c084ed6c2438d243b72e215e77171f9,
-        type: 3}
-      propertyPath: orthographic size
-      value: 16
-      objectReference: {fileID: 0}
     - target: {fileID: 8888436763767271634, guid: 9c084ed6c2438d243b72e215e77171f9,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2677,6 +2683,11 @@ PrefabInstance:
       propertyPath: target
       value: 
       objectReference: {fileID: 1851236744}
+    - target: {fileID: 8888436763888838952, guid: 9c084ed6c2438d243b72e215e77171f9,
+        type: 3}
+      propertyPath: orthographic size
+      value: 16
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9c084ed6c2438d243b72e215e77171f9, type: 3}
 --- !u!1001 &1330695833

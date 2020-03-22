@@ -241,7 +241,7 @@ MonoBehaviour:
   whatIsGround:
     serializedVersion: 2
     m_Bits: 256
-  jumpForce: 22
+  jumpForce: 24
   jumpTime: 0.2
   headPos: {fileID: 970589025599791606}
   checkRadius2: 0.35

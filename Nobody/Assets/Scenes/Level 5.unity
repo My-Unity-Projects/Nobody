@@ -54,7 +54,7 @@ LightmapSettings:
     m_EnableBakedLightmaps: 0
     m_EnableRealtimeLightmaps: 0
   m_LightmapEditorSettings:
-    serializedVersion: 10
+    serializedVersion: 12
     m_Resolution: 2
     m_BakeResolution: 40
     m_AtlasSize: 1024
@@ -62,6 +62,7 @@ LightmapSettings:
     m_AOMaxDistance: 1
     m_CompAOExponent: 1
     m_CompAOExponentDirect: 0
+    m_ExtractAmbientOcclusion: 0
     m_Padding: 2
     m_LightmapParameters: {fileID: 0}
     m_LightmapsBakeMode: 1
@@ -76,10 +77,16 @@ LightmapSettings:
     m_PVRDirectSampleCount: 32
     m_PVRSampleCount: 500
     m_PVRBounces: 2
+    m_PVREnvironmentSampleCount: 500
+    m_PVREnvironmentReferencePointCount: 2048
+    m_PVRFilteringMode: 2
+    m_PVRDenoiserTypeDirect: 0
+    m_PVRDenoiserTypeIndirect: 0
+    m_PVRDenoiserTypeAO: 0
     m_PVRFilterTypeDirect: 0
     m_PVRFilterTypeIndirect: 0
     m_PVRFilterTypeAO: 0
-    m_PVRFilteringMode: 1
+    m_PVREnvironmentMIS: 0
     m_PVRCulling: 1
     m_PVRFilteringGaussRadiusDirect: 1
     m_PVRFilteringGaussRadiusIndirect: 5
@@ -87,7 +94,8 @@ LightmapSettings:
     m_PVRFilteringAtrousPositionSigmaDirect: 0.5
     m_PVRFilteringAtrousPositionSigmaIndirect: 2
     m_PVRFilteringAtrousPositionSigmaAO: 1
-    m_ShowResolutionOverlay: 1
+    m_ExportTrainingData: 0
+    m_TrainingDataDestination: TrainingData
   m_LightingDataAsset: {fileID: 0}
   m_UseShadowmask: 1
 --- !u!196 &4
@@ -489,11 +497,6 @@ PrefabInstance:
       propertyPath: m_Color.b
       value: 0.09729433
       objectReference: {fileID: 0}
-    - target: {fileID: 306500510111380976, guid: e4ad66b7fdce45f43810d9249c8085c8,
-        type: 3}
-      propertyPath: m_Layer
-      value: 14
-      objectReference: {fileID: 0}
     - target: {fileID: 877322907928541229, guid: e4ad66b7fdce45f43810d9249c8085c8,
         type: 3}
       propertyPath: m_Layer
@@ -505,6 +508,11 @@ PrefabInstance:
       value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 877322907562908994, guid: e4ad66b7fdce45f43810d9249c8085c8,
+        type: 3}
+      propertyPath: m_Layer
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 306500510111380976, guid: e4ad66b7fdce45f43810d9249c8085c8,
         type: 3}
       propertyPath: m_Layer
       value: 14
@@ -782,6 +790,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Offset.y
       value: -7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4144286395006859785, guid: 3f81b3ee412a3f74d97a56829037af4d,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4144286395006859785, guid: 3f81b3ee412a3f74d97a56829037af4d,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 26
+      objectReference: {fileID: 0}
+    - target: {fileID: 4144286395006859785, guid: 3f81b3ee412a3f74d97a56829037af4d,
+        type: 3}
+      propertyPath: m_Offset.x
+      value: 5.4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3f81b3ee412a3f74d97a56829037af4d, type: 3}
@@ -1444,6 +1467,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6816989036246628131, guid: bc36bf85af1620c43aa88d596770e2e1,
+        type: 3}
+      propertyPath: jumpForce
+      value: 24
+      objectReference: {fileID: 0}
+    - target: {fileID: 6816989037344639873, guid: bc36bf85af1620c43aa88d596770e2e1,
+        type: 3}
+      propertyPath: m_Radius
+      value: 4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bc36bf85af1620c43aa88d596770e2e1, type: 3}
@@ -2380,6 +2413,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3929414393353703906, guid: 60957483c6d61e446ab5a687397a0ee2,
+        type: 3}
+      propertyPath: m_Radius
+      value: 4.1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 60957483c6d61e446ab5a687397a0ee2, type: 3}

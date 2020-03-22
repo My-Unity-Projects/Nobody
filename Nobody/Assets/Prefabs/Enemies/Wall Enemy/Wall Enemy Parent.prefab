@@ -56,6 +56,7 @@ SpriteRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -89,10 +90,10 @@ GameObject:
   m_Component:
   - component: {fileID: 7505998387208950885}
   - component: {fileID: 7505998387208950884}
-  - component: {fileID: 7505998387208950887}
+  - component: {fileID: 8257590444295566252}
   - component: {fileID: 7505998387208950886}
   - component: {fileID: 7505998387208950873}
-  - component: {fileID: 6348197485277109261}
+  - component: {fileID: 4144286395006859785}
   - component: {fileID: 7505998387208950872}
   m_Layer: 11
   m_Name: Wall Enemy
@@ -142,6 +143,7 @@ SpriteRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -165,8 +167,8 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &7505998387208950887
-BoxCollider2D:
+--- !u!70 &8257590444295566252
+CapsuleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -179,18 +181,8 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 3.2, y: 3.4}
-    newSize: {x: 3.2, y: 3.4}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 2, y: 3}
-  m_EdgeRadius: 0
+  m_Size: {x: 3.2, y: 3.4}
+  m_Direction: 0
 --- !u!50 &7505998387208950886
 Rigidbody2D:
   serializedVersion: 4
@@ -241,8 +233,8 @@ PolygonCollider2D:
       - {x: -1, y: 0}
       - {x: -4, y: 9}
       - {x: 4, y: 9}
---- !u!58 &6348197485277109261
-CircleCollider2D:
+--- !u!61 &4144286395006859785
+BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -254,9 +246,19 @@ CircleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -6.5}
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3.2, y: 3.4}
+    newSize: {x: 3.2, y: 3.4}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
   serializedVersion: 2
-  m_Radius: 8
+  m_Size: {x: 3.2, y: 3.4}
+  m_EdgeRadius: 0
 --- !u!114 &7505998387208950872
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -328,6 +330,7 @@ TrailRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0

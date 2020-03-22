@@ -51,7 +51,7 @@ public class GroundEnemy : MonoBehaviour
     public Transform firePoint;
 
     public List<GameObject> vfx = new List<GameObject>();
-    public GameObject effectToSpawn;
+    private GameObject effectToSpawn;
 
     // Start is called before the first frame update
     void Start()

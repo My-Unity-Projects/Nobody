@@ -1528,6 +1528,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Room
       objectReference: {fileID: 0}
+    - target: {fileID: 877322907928541226, guid: e4ad66b7fdce45f43810d9249c8085c8,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 8.6
+      objectReference: {fileID: 0}
     - target: {fileID: 877322907392296029, guid: e4ad66b7fdce45f43810d9249c8085c8,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1672,11 +1677,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Color.b
       value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 877322907928541226, guid: e4ad66b7fdce45f43810d9249c8085c8,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 8.6
       objectReference: {fileID: 0}
     - target: {fileID: 877322907032895975, guid: e4ad66b7fdce45f43810d9249c8085c8,
         type: 3}
@@ -2316,11 +2316,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Camera Parent
       objectReference: {fileID: 0}
-    - target: {fileID: 8888436763888838952, guid: 9c084ed6c2438d243b72e215e77171f9,
-        type: 3}
-      propertyPath: orthographic size
-      value: 16
-      objectReference: {fileID: 0}
     - target: {fileID: 8888436763767271634, guid: 9c084ed6c2438d243b72e215e77171f9,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2381,6 +2376,11 @@ PrefabInstance:
       propertyPath: target
       value: 
       objectReference: {fileID: 2042068466}
+    - target: {fileID: 8888436763888838952, guid: 9c084ed6c2438d243b72e215e77171f9,
+        type: 3}
+      propertyPath: orthographic size
+      value: 16
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9c084ed6c2438d243b72e215e77171f9, type: 3}
 --- !u!20 &1328394225 stripped
@@ -2597,6 +2597,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3929414392440499520, guid: 60957483c6d61e446ab5a687397a0ee2,
+        type: 3}
+      propertyPath: jumpForce
+      value: 24
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 60957483c6d61e446ab5a687397a0ee2, type: 3}

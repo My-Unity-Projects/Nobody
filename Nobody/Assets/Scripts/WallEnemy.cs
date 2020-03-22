@@ -22,12 +22,6 @@ public class WallEnemy : MonoBehaviour
         atack = false;
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
     // Trigger
     public void Trigger()
     {
@@ -55,9 +49,9 @@ public class WallEnemy : MonoBehaviour
             CameraShaker.Instance.ShakeOnce(20, 20, .2f, .2f);
             var main = explosionPS.main;
             main.startColor = sr.color;
-            this.GetComponent<CircleCollider2D>().enabled = true;
-            this.GetComponent<BoxCollider2D>().enabled = false;
+            this.GetComponent<CapsuleCollider2D>().enabled = false;
             this.GetComponent<SpriteRenderer>().enabled = false;
+            this.GetComponent<BoxCollider2D>().enabled = true;
             this.transform.GetChild(0).GetComponent<SpriteRenderer>().enabled = false;
             Instantiate(explosionPS, this.transform.position, Quaternion.identity);
             GameObject.FindObjectOfType<AudioManager>().Play("Wall Enemy Dead");

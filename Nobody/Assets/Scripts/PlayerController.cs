@@ -93,6 +93,12 @@ public class PlayerController : MonoBehaviour
     void Update()
     {
         Shoot();
+
+        // To restart the game
+        if(Input.GetKeyDown(KeyCode.R))
+        {
+            GameObject.FindObjectOfType<SceneTransitions>().LoadNewScene(SceneManager.GetActiveScene().name);
+        }
     }
 
     // FixedUpdate is called once per frame execute in here the physics related methods
@@ -212,7 +218,7 @@ public class PlayerController : MonoBehaviour
         isGrounded = Physics2D.OverlapCircle(feetPos.position, checkRadius, whatIsGround);
         isCeiling = Physics2D.OverlapCircle(headPos.position, checkRadius2, whatIsGround2);
 
-        if (isGrounded && Input.GetKeyDown(KeyCode.Space))
+        if (isGrounded && Input.GetKey(KeyCode.Space))
         {
             isJumping = true;
             jumpTimeCounter = jumpTime;
