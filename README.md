@@ -54,12 +54,12 @@ To solve the challenging puzzles of the game you will need to kill the enemies o
 and use the unique body change mechanic to reach places you could not reach otherwise. 
 
 When I created Nobody I wanted to explore new gameplay ideas I had never seen before and 
-I thought could be interesting to see in a platformer/puzzle game. I always loved puzzle 
+thought could be interesting to see in a platformer/puzzle game. I always loved puzzle 
 games like Braid, Limbo, Portal, etc... Working on Nobody was my chance to create my first 
 game of this genre and put to the test my level design skills.
 
 The main goal of this project was to design puzzles that could give great satisfaction to the 
-players when solved and offer them a challenging and unique experience.
+players when solved, and offer them a challenging and unique experience.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
