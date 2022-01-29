@@ -19,7 +19,7 @@
   <h1 align="center">Nobody</h1>
 
   <p align="center">
-    Platformer and puzzle game developed for the biggest game development festival in Ireland, the Games Fleadh 2019
+    Platformer and puzzle game developed for the Games Fleadh 2019
     <br />
     <a href="https://github.com/My-Unity-Projects/Nobody/issues">Report Bug</a>
     ·
