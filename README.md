@@ -87,9 +87,9 @@ OR
    git clone https://github.com/My-Unity-Projects/Nobody
    ```
 
-2. Open the project with Unity
+2. Open project with Unity
 
-3. Build the project for pc platforms
+3. Build project for pc platforms
 
 4. Run the build
 
