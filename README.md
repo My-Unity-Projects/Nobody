@@ -51,13 +51,11 @@ Nobody is a platformer and puzzle game developed for the biggest game developmen
 in Ireland, the Games Fleadh 2019.
 
 To solve the challenging puzzles of the game you will need to kill the enemies of every level 
-and use the unique body change mechanic to reach places you could not reach otherwise.
-
-When I created Nobody I wanted to explore new gameplay ideas that I had never seen before and 
-that I thought could be interesting to see in a platformer/puzzle game.
-
-I always loved puzzle games like Braid, Limbo, Portal, etc... And Nobody was my chance to create 
-my first game of this genre and put to the test my level design skills.
+and use the unique body change mechanic to reach places you could not reach otherwise. When I created 
+Nobody I wanted to explore new gameplay ideas I had never seen before and 
+I thought could be interesting to see in a platformer/puzzle game. I always loved puzzle 
+games like Braid, Limbo, Portal, etc... And working on Nobody was my chance to create my first 
+game of this genre and put to the test my level design skills.
 
 The main goal of this project was to design puzzles that could give great satisfaction to the 
 players when solved and offer them a challenging and unique experience.
